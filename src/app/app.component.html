@@ -1,2 +1,12 @@
+<label>
+    change
+    <select #langSelect (change)="changeLanguage(langSelect.value)">
+        <option *ngFor="let lang of langs" [value]="lang">
+            {{ lang }}
+        </option>
+    </select>
+</label>
+
 <h1>{{'title' | translate}}</h1>
+<p [innerHTML]="'grettings' | translate:{nombre:'Fulano'}"></p>
 <router-outlet></router-outlet>

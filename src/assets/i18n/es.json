@@ -1,3 +1,5 @@
 {
-    "title": "Internacionalizacion"
+    "title": "Internacionalizacion",
+    "grettings": "Hola <strong>{{nombre}}</strong>, muchos gusto.",
+    "about": "Acerca de"
 }
